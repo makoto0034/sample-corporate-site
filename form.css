@@ -1,0 +1,60 @@
+form{
+  max-width: 680px;
+  margin:0 auto;
+  border: solid #EDEDED;
+  border-width: 1px 1px 1px 1px;
+}
+
+.formInner{
+  width:100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding:20px;
+}
+
+.form_header{
+  background:#F2F2F2;
+}
+
+.form_header h3{
+  padding: 15px;
+}
+
+.form_section{
+  border: solid #EDEDED;
+  border-width:1px 0 0 0;
+  padding:10px 0;
+}
+
+.form_section select{
+  color:#C0CCDD;
+  cursor: pointer;
+}
+
+textarea,input[type="text"],select{
+  width:100%;
+  padding:10px;
+  box-sizing: border-box;
+}
+
+input[type="text"]::placeholder{
+  font-size:1.1em;
+}
+
+
+button{
+  display:block;
+  margin:0 auto;
+  background:#000;
+  color:#ffff;
+  border:none;
+  border-radius:5px;
+  width:250px;
+  padding:15px;
+  font-size:1em;
+  cursor:pointer;
+}
+
+select{
+  font-size:1.1em;
+}
